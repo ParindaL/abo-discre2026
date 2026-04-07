@@ -71,7 +71,7 @@ def main():
         f"-O {rg_bam} "
         f"-RGID 4 "
         f"-RGLB lib1 "
-        f"-RGPL ILLUMINA "
+        f"-RGPL IONTORRENT "
         f"-RGPU unit1 "
         f"-RGSM {sample_name}"  # Use the sample name derived from the FASTQ
     )
